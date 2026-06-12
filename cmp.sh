@@ -35,7 +35,7 @@ elif [ "$1" == "-u" ]; then
         echo "-----------------------------------------------------"
         echo "Usage for -cm: use -cm and it will automatically change the MAC address"
         echo "Usage for -rm: use -rm and it'll reset automatically the MAC address"
-        echo "Usage for -st: enter the flag and then the target IPv4"
+        echo "Usage for -st: enter the flag and then follow the instructions"
         echo "Usage for -sn: same as for -st"
         echo "Usage for -sp: same goes for this, except there's an IPv6 target address"
         echo "-----------------------------------------------------"
