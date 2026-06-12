@@ -82,4 +82,4 @@ else
         echo -e "${RED}Error. Flag not recognized." >&22
 fi
 
-echo -e "${RESET}"
+echo -e "${DEFAULT}"
