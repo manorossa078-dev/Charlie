@@ -3,7 +3,7 @@
 GREEN="\e[1;32m"
 RED="\e[1;31m"
 DEFAULT="\e[0m"
-VERSION="v.0.0.7"
+VERSION="v.0.0.7 bugfix"
 
 echo -e "${GREEN}"
 
@@ -81,3 +81,5 @@ elif [ "$1" == "-sp" ]; then
 else
         echo -e "${RED}Error. Flag not recognized." >&22
 fi
+
+echo -e "${DEFAULT}"
